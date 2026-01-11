@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Ensenada Restaurant Home</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#ee5b2b",
+                        "background-light": "#fcf9f8",
+                        "background-dark": "#221510",
+                        "accent-teal": "#20b2aa",
+                        "accent-lime": "#32cd32",
+                    },
+                    fontFamily: {
+                        "display": ["Plus Jakarta Sans", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "1rem",
+                        "lg": "2rem",
+                        "xl": "3rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-light dark:bg-background-dark font-display text-[#1b110d] dark:text-[#fcf9f8] antialiased">
+<div class="relative flex h-auto min-h-screen w-full flex-col group/design-root overflow-x-hidden">
+<!-- TopAppBar -->
+<header class="sticky top-0 z-50 flex items-center bg-background-light/95 dark:bg-background-dark/95 backdrop-blur-sm p-4 pb-2 justify-between border-b border-gray-100 dark:border-gray-800">
+<div class="text-primary flex size-12 shrink-0 items-center justify-center" data-icon="restaurant">
+<span class="material-symbols-outlined text-3xl">restaurant</span>
+</div>
+<h2 class="text-[#1b110d] dark:text-[#fcf9f8] text-lg font-bold leading-tight tracking-[-0.015em] flex-1 px-2">Ensenada Restaurant</h2>
+<div class="flex items-center justify-end">
+<button class="bg-primary text-white text-xs font-bold leading-normal px-4 py-2 rounded-full shadow-lg shadow-primary/20">
+                    Order Online
+                </button>
+</div>
+</header>
+<!-- HeroSection -->
+<div class="@container">
+<div class="@[480px]:p-4">
+<div class="flex min-h-[420px] flex-col gap-6 bg-cover bg-center bg-no-repeat @[480px]:gap-8 @[480px]:rounded-xl items-center justify-center p-6 text-center" data-alt="Gourmet Mexican seafood platter with lobster and shrimp" style='background-image: linear-gradient(rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.6) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuC4SaX__KfqT5w_IRO5xcOu8EbTuDh24m2ybpgQ60pQFcqohcl9PFGOqBEZGSP1YsBMLjE4R748svgC_cBabGEb1epQZwmOtioEiPHnokndg4KY-yZLUvM3gx5xnW4j0jcNIB6slFSsjY1oVKOBECzw4bcRccBJdk51th8wydEzWl24ksP5uSJGciQc_w1sg4_073k_YJYy49bgV5UB01ewYs6vrbot0U-aO3ijgTNzY2bB9t8YnYO6Gm5EF89etmaMVY8oiQAsuuI");'>
+<div class="flex flex-col gap-3">
+<span class="text-accent-lime font-bold tracking-widest uppercase text-xs">Authentic Flavors</span>
+<h1 class="text-white text-4xl font-black leading-tight tracking-[-0.033em] @[480px]:text-5xl">
+                            Mexican &amp; Seafood
+                        </h1>
+<h2 class="text-white/90 text-base font-medium max-w-md mx-auto">
+                            The finest seafood platter in Fountain Valley, prepared with traditional coastal spices and fresh daily catch.
+                        </h2>
+</div>
+<div class="flex gap-3">
+<button class="flex min-w-[140px] cursor-pointer items-center justify-center rounded-full h-12 px-6 bg-primary text-white text-base font-bold shadow-xl shadow-primary/30">
+                            View Menu
+                        </button>
+</div>
+</div>
+</div>
+</div>
+<!-- SectionHeader: Menu Highlights -->
+<div class="flex items-center justify-between px-4 pb-1 pt-8">
+<h2 class="text-[#1b110d] dark:text-[#fcf9f8] text-[24px] font-extrabold leading-tight tracking-[-0.015em]">Menu Highlights</h2>
+<span class="text-accent-teal text-sm font-bold">See All</span>
+</div>
+<!-- Carousel: Highlights -->
+<div class="flex overflow-x-auto [-ms-scrollbar-style:none] [scrollbar-width:none] [&amp;::-webkit-scrollbar]:hidden">
+<div class="flex items-stretch p-4 gap-4">
+<!-- Highlight 1 -->
+<div class="flex h-full flex-1 flex-col gap-3 rounded-xl min-w-64 bg-white dark:bg-[#2d1d17] p-3 shadow-sm">
+<div class="w-full bg-center bg-no-repeat aspect-[4/3] bg-cover rounded-lg" data-alt="Trio of authentic street tacos with various fillings" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDLtdQ_SUk6rJNHO5nLvaFNV3Zoub4d4U6MVI9SmAkTaWtyNPCN_OQgz1YSKEZPV9Rdgcwhl4jV6Go5rbZ8rGEd3yWV7yPtzUZAeXo-vuWZDgXnvuF1JVNfFpYTAxqTjsIQn7IRdmNraUZOwZS9FGZRwS2CHBMNKacKWWd1mjuhJaFTcJfuVKlY-ejOKa86dkbg-0cRkmSf-xBZuPOZwf7F6me_SCm-vIhpnaxWmE67ln3BcrBbYUD5PZlzJ5px3gaRRCM_GOihN3s");'>
+</div>
+<div>
+<div class="flex justify-between items-start">
+<p class="text-[#1b110d] dark:text-[#fcf9f8] text-lg font-bold">Signature Tacos</p>
+<span class="text-accent-lime font-bold text-sm">$12</span>
+</div>
+<p class="text-gray-500 dark:text-gray-400 text-sm mt-1">Choice of handmade tortillas with Chicken, Shrimp, or Steak.</p>
+</div>
+</div>
+<!-- Highlight 2 -->
+<div class="flex h-full flex-1 flex-col gap-3 rounded-xl min-w-64 bg-white dark:bg-[#2d1d17] p-3 shadow-sm">
+<div class="w-full bg-center bg-no-repeat aspect-[4/3] bg-cover rounded-lg" data-alt="Massive burrito filled with fresh ingredients" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBGYDIR_Yzmh0CPaC8SR8wydgisIK5gK4OCYXb1VlzYeufRunYZNrGlN5ozRnTtWQdH6oivRphHuK4qJwsNn8AQ4YjqAN0ML_oZOIusUO4PtxU6p5lrAa4tSJ_XuUzHBLYkZY4qnj3lm8GFkDszRIynEjlVEQE0ypagcIUdC_lYks5oqYROAmQ03LCMcLgf1BIHeLimbuE4QsW3Yg9VrnLK19S6elv3tFK9MkRWOmScc8PDxBw_roABLMb1KjQEGvYBl3-Q03kxCs4");'>
+</div>
+<div>
+<div class="flex justify-between items-start">
+<p class="text-[#1b110d] dark:text-[#fcf9f8] text-lg font-bold">Monster Burritos</p>
+<span class="text-accent-lime font-bold text-sm">$15</span>
+</div>
+<p class="text-gray-500 dark:text-gray-400 text-sm mt-1">Overstuffed with beans, rice, and your choice of premium protein.</p>
+</div>
+</div>
+<!-- Highlight 3 -->
+<div class="flex h-full flex-1 flex-col gap-3 rounded-xl min-w-64 bg-white dark:bg-[#2d1d17] p-3 shadow-sm">
+<div class="w-full bg-center bg-no-repeat aspect-[4/3] bg-cover rounded-lg" data-alt="Spicy shrimp dish with red sauce" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuA6zt8RSlGJ4-vXP_HiDXgqSF43-jOUODIjHNYjkIk_po7DWpgODYPgrvCIZqaThH6XVzph89bcO8IqqQ9yqSgaGrKs6MsOrCSlR6IEo3dmdIfbfxh5Di85TmPpEcz2pBK8blekHBVvHUtQ3fha8IAY9uOgvh_IYeLqnXTNeCdJt94Icne0mrOy5OMeVrKmepj6s5FtMIdraN0xM3H6cfbd06ZoD4ytasJDS2_ATXltRdbc-r9cwzb5G--WEwcANOG68sVOirkqUGE");'>
+</div>
+<div>
+<div class="flex justify-between items-start">
+<p class="text-[#1b110d] dark:text-[#fcf9f8] text-lg font-bold">Camarones Diabla</p>
+<span class="text-accent-lime font-bold text-sm">$19</span>
+</div>
+<p class="text-gray-500 dark:text-gray-400 text-sm mt-1">Succulent shrimp sautéed in our secret fiery red chili sauce.</p>
+</div>
+</div>
+</div>
+</div>
+<!-- SectionHeader: Specialty -->
+<h2 class="text-[#1b110d] dark:text-[#fcf9f8] text-[24px] font-extrabold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Premium Specialties</h2>
+<!-- Card: Langosta -->
+<div class="p-4 @container">
+<div class="flex flex-col items-stretch justify-start rounded-xl overflow-hidden shadow-lg bg-white dark:bg-[#2d1d17]">
+<div class="w-full bg-center bg-no-repeat aspect-video bg-cover" data-alt="Fresh cooked lobster served with traditional sides" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAs-MMFPTAKNVgm1ngFA46aZZiBtGVFdP_6iKSWN0BgKyv1BhnvwKxNbv6JI9Pl_0HupplEB-fh-GlNC4s2Ylqf052eAr3ZGgu7b4MtIsPfRgQ3zC1LZNTBna5FTitUZsU4VIsK58S0lVSXKXaVxCTD4kToOAJ4CcbsK96RnyrZg42-K_8hS4NFy7weiS3HrMXM1EMKoBeKEc4TXBHV8RkcmHWFNaEZmsNd8P6F_p7r0l_ssp6hTZCk3J87dnSsXxHrF-hWuR6vVY8");'>
+<div class="bg-primary/90 text-white text-[10px] font-bold uppercase tracking-widest m-3 px-3 py-1 rounded-full inline-block">Chef's Choice</div>
+</div>
+<div class="flex w-full flex-col gap-2 p-5">
+<p class="text-primary text-xl font-black leading-tight tracking-tight uppercase">Langosta Special</p>
+<p class="text-gray-600 dark:text-gray-300 text-base leading-relaxed">
+                        Whole freshly caught Pacific lobster prepared with traditional Mexican spices, served with citrus butter and handmade tortillas.
+                    </p>
+<div class="flex items-center justify-between mt-2">
+<span class="text-2xl font-bold text-[#1b110d] dark:text-[#fcf9f8]">$34.99</span>
+<button class="flex items-center gap-2 cursor-pointer rounded-full h-10 px-5 bg-accent-teal text-white text-sm font-bold shadow-md">
+<span class="material-symbols-outlined text-lg">shopping_basket</span>
+<span>Add to Cart</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Gift Cards Section -->
+<div class="mx-4 my-6 p-6 rounded-xl bg-gradient-to-br from-[#ee5b2b] to-[#c53d12] text-white flex flex-col gap-4 relative overflow-hidden">
+<div class="relative z-10">
+<h3 class="text-2xl font-black italic">Gift Cards</h3>
+<p class="text-white/90 text-sm font-medium mt-1">Give the gift of authentic flavor. Perfect for any celebration!</p>
+<button class="mt-4 bg-white text-primary rounded-full px-6 py-2 font-bold text-sm shadow-lg">Buy Now</button>
+</div>
+<!-- Abstract Graphic -->
+<div class="absolute -right-10 -bottom-10 opacity-20">
+<span class="material-symbols-outlined text-[150px]">celebration</span>
+</div>
+</div>
+<!-- Visit Us / Location Section -->
+<div class="bg-[#f0ecea] dark:bg-[#1a0f0b] mt-6 p-6 pb-12 rounded-t-[3rem]">
+<h2 class="text-[#1b110d] dark:text-[#fcf9f8] text-[24px] font-extrabold leading-tight tracking-[-0.015em] mb-6">Visit Us</h2>
+<div class="flex flex-col gap-6">
+<!-- Address -->
+<div class="flex items-start gap-4">
+<div class="size-10 rounded-full bg-accent-teal/10 flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-accent-teal">location_on</span>
+</div>
+<div>
+<p class="text-sm font-bold text-[#1b110d] dark:text-[#fcf9f8]">Location</p>
+<p class="text-sm text-gray-600 dark:text-gray-400">16000 Harbor Blvd<br/>Fountain Valley, CA 92708</p>
+</div>
+</div>
+<!-- Hours -->
+<div class="flex items-start gap-4">
+<div class="size-10 rounded-full bg-primary/10 flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-primary">schedule</span>
+</div>
+<div class="flex-1">
+<p class="text-sm font-bold text-[#1b110d] dark:text-[#fcf9f8]">Hours of Operation</p>
+<div class="grid grid-cols-2 gap-y-1 mt-1 text-sm text-gray-600 dark:text-gray-400">
+<span>Mon - Thu</span> <span class="text-right">10:00 AM - 9:00 PM</span>
+<span>Fri - Sat</span> <span class="text-right">10:00 AM - 10:00 PM</span>
+<span>Sunday</span> <span class="text-right">10:00 AM - 8:00 PM</span>
+</div>
+</div>
+</div>
+<!-- Phone -->
+<div class="flex items-start gap-4">
+<div class="size-10 rounded-full bg-accent-lime/10 flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-accent-lime">call</span>
+</div>
+<div>
+<p class="text-sm font-bold text-[#1b110d] dark:text-[#fcf9f8]">Contact</p>
+<p class="text-sm text-gray-600 dark:text-gray-400">(714) 555-0123</p>
+</div>
+</div>
+</div>
+<div class="mt-8 h-40 w-full rounded-2xl bg-gray-200 overflow-hidden relative" data-location="Fountain Valley, CA" style="https://lh3.googleusercontent.com/aida-public/AB6AXuDIJ7zCGOMm4kfKBeCLoJ3O6JKMQ2zW_hp5MoepHQHuLndOYxm2W_cJDy2s8w6vatljGweECSh3odkHVRYcoUeCqKtTni-vhYMA5SxEnQAschN-zB_5YgyPM_ZqR79Lit4kNBDCfSH5QRMk5HDjYr5EP--lKrhHP8ZYiRAV_4ukJdJOic0mnXQdABSEalEKFyq2z6H27Q6g2FaGheobTO0JpqWvVenYOe5ZsTEhd5dHkTIwwJpmxMWRwIDvr1DsawkDPKGcY1F2cfk">
+<!-- Map Placeholder -->
+<div class="absolute inset-0 bg-cover bg-center" data-alt="Map location of the restaurant in Fountain Valley" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAB7IEi4vR0qpXx1bvxYFezmbZ8jaYomg7XIRxsFuO3S6SEqbqeBh_HO6L5BzKv_oyt_LrIC2tusT6SO2nv6rw7GY1n5CGYFukDV_nSpO2NSPDa0opzDZkrqH1fWrKkcdKEgLExypJumTwrRXe66ip6RkH3bFe9bZcuxxGK9V1hlf2Tzg5NlB9mY3gt-CjsIWL03ExjlEhZPHmnPtzdtutM0MXSpur53xRLZG7ocgI3kP4hXnj20ZO6XsTsLvkBo8ovhnAGFB58lNU');"></div>
+<div class="absolute inset-0 flex items-center justify-center pointer-events-none">
+<div class="size-8 rounded-full bg-primary border-4 border-white shadow-lg animate-pulse"></div>
+</div>
+</div>
+<div class="mt-10 pt-8 border-t border-gray-200 dark:border-gray-800 text-center">
+<p class="text-xs text-gray-400 uppercase tracking-widest font-bold">© 2024 Ensenada Restaurant</p>
+<p class="text-[10px] text-gray-400 mt-2">Authentic Mexican &amp; Seafood Experience</p>
+</div>
+</div>
+<!-- Floating Action Button -->
+<div class="fixed bottom-6 right-6 z-50">
+<button class="size-14 bg-primary text-white rounded-full shadow-2xl flex items-center justify-center">
+<span class="material-symbols-outlined">directions</span>
+</button>
+</div>
+</div>
+</body></html>
