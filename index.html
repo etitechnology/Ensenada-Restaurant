@@ -5,9 +5,8 @@
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <title>Ensenada Restaurant Home</title>
 <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
 <script id="tailwind-config">
         tailwind.config = {
             darkMode: "class",
@@ -67,9 +66,9 @@
                         </h2>
 </div>
 <div class="flex gap-3">
-<button class="flex min-w-[140px] cursor-pointer items-center justify-center rounded-full h-12 px-6 bg-primary text-white text-base font-bold shadow-xl shadow-primary/30">
+<a href="menu.html" class="flex min-w-[140px] cursor-pointer items-center justify-center rounded-full h-12 px-6 bg-primary text-white text-base font-bold shadow-xl shadow-primary/30 hover:bg-primary/90 transition-colors">
                             View Menu
-                        </button>
+                        </a>
 </div>
 </div>
 </div>
@@ -77,10 +76,10 @@
 <!-- SectionHeader: Menu Highlights -->
 <div class="flex items-center justify-between px-4 pb-1 pt-8">
 <h2 class="text-[#1b110d] dark:text-[#fcf9f8] text-[24px] font-extrabold leading-tight tracking-[-0.015em]">Menu Highlights</h2>
-<span class="text-accent-teal text-sm font-bold">See All</span>
+<a href="menu.html" class="text-accent-teal text-sm font-bold hover:underline">See All</a>
 </div>
 <!-- Carousel: Highlights -->
-<div class="flex overflow-x-auto [-ms-scrollbar-style:none] [scrollbar-width:none] [&amp;::-webkit-scrollbar]:hidden">
+<div class="flex overflow-x-auto [-ms-scrollbar-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
 <div class="flex items-stretch p-4 gap-4">
 <!-- Highlight 1 -->
 <div class="flex h-full flex-1 flex-col gap-3 rounded-xl min-w-64 bg-white dark:bg-[#2d1d17] p-3 shadow-sm">
@@ -135,7 +134,7 @@
                     </p>
 <div class="flex items-center justify-between mt-2">
 <span class="text-2xl font-bold text-[#1b110d] dark:text-[#fcf9f8]">$34.99</span>
-<button class="flex items-center gap-2 cursor-pointer rounded-full h-10 px-5 bg-accent-teal text-white text-sm font-bold shadow-md">
+<button class="flex items-center gap-2 cursor-pointer rounded-full h-10 px-5 bg-accent-teal text-white text-sm font-bold shadow-md hover:bg-accent-teal/90 transition-colors">
 <span class="material-symbols-outlined text-lg">shopping_basket</span>
 <span>Add to Cart</span>
 </button>
@@ -148,7 +147,7 @@
 <div class="relative z-10">
 <h3 class="text-2xl font-black italic">Gift Cards</h3>
 <p class="text-white/90 text-sm font-medium mt-1">Give the gift of authentic flavor. Perfect for any celebration!</p>
-<button class="mt-4 bg-white text-primary rounded-full px-6 py-2 font-bold text-sm shadow-lg">Buy Now</button>
+<button class="mt-4 bg-white text-primary rounded-full px-6 py-2 font-bold text-sm shadow-lg hover:shadow-xl transition-shadow">Buy Now</button>
 </div>
 <!-- Abstract Graphic -->
 <div class="absolute -right-10 -bottom-10 opacity-20">
@@ -190,11 +189,11 @@
 </div>
 <div>
 <p class="text-sm font-bold text-[#1b110d] dark:text-[#fcf9f8]">Contact</p>
-<p class="text-sm text-gray-600 dark:text-gray-400">(714) 555-0123</p>
+<p class="text-sm text-gray-600 dark:text-gray-400"><a href="tel:7145550123" class="hover:text-primary transition-colors">(714) 555-0123</a></p>
 </div>
 </div>
 </div>
-<div class="mt-8 h-40 w-full rounded-2xl bg-gray-200 overflow-hidden relative" data-location="Fountain Valley, CA" style="https://lh3.googleusercontent.com/aida-public/AB6AXuDIJ7zCGOMm4kfKBeCLoJ3O6JKMQ2zW_hp5MoepHQHuLndOYxm2W_cJDy2s8w6vatljGweECSh3odkHVRYcoUeCqKtTni-vhYMA5SxEnQAschN-zB_5YgyPM_ZqR79Lit4kNBDCfSH5QRMk5HDjYr5EP--lKrhHP8ZYiRAV_4ukJdJOic0mnXQdABSEalEKFyq2z6H27Q6g2FaGheobTO0JpqWvVenYOe5ZsTEhd5dHkTIwwJpmxMWRwIDvr1DsawkDPKGcY1F2cfk">
+<div class="mt-8 h-40 w-full rounded-2xl bg-gray-200 overflow-hidden relative" data-location="Fountain Valley, CA">
 <!-- Map Placeholder -->
 <div class="absolute inset-0 bg-cover bg-center" data-alt="Map location of the restaurant in Fountain Valley" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAB7IEi4vR0qpXx1bvxYFezmbZ8jaYomg7XIRxsFuO3S6SEqbqeBh_HO6L5BzKv_oyt_LrIC2tusT6SO2nv6rw7GY1n5CGYFukDV_nSpO2NSPDa0opzDZkrqH1fWrKkcdKEgLExypJumTwrRXe66ip6RkH3bFe9bZcuxxGK9V1hlf2Tzg5NlB9mY3gt-CjsIWL03ExjlEhZPHmnPtzdtutM0MXSpur53xRLZG7ocgI3kP4hXnj20ZO6XsTsLvkBo8ovhnAGFB58lNU');"></div>
 <div class="absolute inset-0 flex items-center justify-center pointer-events-none">
@@ -208,9 +207,9 @@
 </div>
 <!-- Floating Action Button -->
 <div class="fixed bottom-6 right-6 z-50">
-<button class="size-14 bg-primary text-white rounded-full shadow-2xl flex items-center justify-center">
+<a href="https://www.google.com/maps/dir/?api=1&destination=16000+Harbor+Blvd+Fountain+Valley+CA+92708" target="_blank" class="size-14 bg-primary text-white rounded-full shadow-2xl flex items-center justify-center hover:bg-primary/90 transition-colors">
 <span class="material-symbols-outlined">directions</span>
-</button>
+</a>
 </div>
 </div>
 </body></html>
